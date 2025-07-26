@@ -1,6 +1,6 @@
-variable "device1_host" {}
-variable "device1_user" {}
-variable "device1_pass" {
+variable "vvoss1_host" {}
+variable "vvoss1_user" {}
+variable "vvoss1_pass" {
   sensitive = true
 }
-variable "device1_name" {}
+variable "vvoss1_name" {}
