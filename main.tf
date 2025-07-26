@@ -8,7 +8,6 @@ terraform {
 }
 
 provider "extrm-fabric-engine" {
-    alias       = "vVOSS1"
     host        = var.vvoss1_host
     port        = 22
     username    = var.vvoss1_user
