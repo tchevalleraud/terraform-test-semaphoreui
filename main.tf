@@ -2,7 +2,7 @@ terraform {
     required_providers {
         extrm-fabric-engine = {
             source = "tchevalleraud/extrm-fabric-engine"
-            version = "~> 0.0.8"
+            version = "~> 0.0.9"
         }
     }
 }
