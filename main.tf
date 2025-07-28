@@ -8,12 +8,25 @@ terraform {
 }
 
 provider "extrm-fabric-engine" {
-    host        = var.vvoss1_host
+    alias       = "device1"
+    host        = 10.201.100.51
     port        = 22
-    username    = var.vvoss1_user
-    password    = var.vvoss1_pass
+    username    = "rwa"
+    password    = "rwa"
 }
 
-resource "extrm-fabric-engine_hostname" "sw1" {
-    hostname    = var.vvoss1_name
+provider "extrm-fabric-engine" {
+    alias       = "device2"
+    host        = 10.201.100.52
+    port        = 22
+    username    = "rwa"
+    password    = "rwa"
+}
+
+resource "extrm-fabric-engine_hostname" "device1" {
+    hostname    = "vVOSS1"
+}
+
+resource "extrm-fabric-engine_hostname" "device2" {
+    hostname    = "vVOSS2"
 }
