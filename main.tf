@@ -9,7 +9,7 @@ terraform {
 
 provider "extrm-fabric-engine" {
     alias       = "device1"
-    host        = 10.201.100.51
+    host        = "10.201.100.51"
     port        = 22
     username    = "rwa"
     password    = "rwa"
@@ -17,7 +17,7 @@ provider "extrm-fabric-engine" {
 
 provider "extrm-fabric-engine" {
     alias       = "device2"
-    host        = 10.201.100.52
+    host        = "10.201.100.52"
     port        = 22
     username    = "rwa"
     password    = "rwa"
