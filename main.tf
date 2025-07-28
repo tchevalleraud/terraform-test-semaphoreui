@@ -11,7 +11,6 @@ provider "extrm-fabric-engine" {
 }
 
 provider "extrm-fabric-engine" {
-    alias       = "device1"
     host        = "10.201.100.51"
     port        = 22
     username    = "rwa"
