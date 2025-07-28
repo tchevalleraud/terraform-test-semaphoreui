@@ -8,6 +8,13 @@ terraform {
 }
 
 provider "extrm-fabric-engine" {
+    host        = "127.0.0.1"
+    username    = "dummy"
+    password    = "dummy"
+}
+
+provider "extrm-fabric-engine" {
+    alias       = "device1"
     host        = "10.201.100.51"
     port        = 22
     username    = "rwa"
