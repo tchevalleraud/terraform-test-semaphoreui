@@ -22,7 +22,7 @@ provider "extrm-fabric-engine" {
     password    = "rwa"
 }
 
-resource "extrm-fabric-engine_hostname" {
+resource "extrm-fabric-engine_hostname" "device1" {
     hostname    = "vVOSS1"
 }
 
