@@ -8,9 +8,6 @@ terraform {
 }
 
 provider "extrm-fabric-engine" {
-}
-
-provider "extrm-fabric-engine" {
     host        = "10.201.100.51"
     port        = 22
     username    = "rwa"
